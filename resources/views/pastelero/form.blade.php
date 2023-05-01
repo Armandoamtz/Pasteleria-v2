@@ -17,6 +17,8 @@
     <title>PasteLaunchX-Formulario</title>
 </head>
 <body>
+@extends('layouts.app')
+@section('content')
 
 <!--MENSAJE DE ACCIÓN-->
 <div class="text-success text-uppercase fw-bold">
@@ -130,5 +132,6 @@
             </div>
         </div>
     </div>
+@endsection
 </body>
 </html>

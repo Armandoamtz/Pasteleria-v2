@@ -15,7 +15,7 @@ class PasteleriaController extends Controller
     public function index()
     {
         //
-        $datos['pasteleria']=Pasteleria::paginate(10);
+        $datos['pasteleria']=Pasteleria::paginate(6);
         return view('pastelero.infoPaste',$datos);
     }
 
